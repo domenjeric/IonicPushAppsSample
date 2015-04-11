@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<title>Ionic PushApps sample</title>
+
+	<link href="lib/ionic/css/ionic.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+	<!-- ionic/angularjs js -->
+	<script src="lib/ionic/js/ionic.bundle.js"></script>
+
+	<!-- cordova script (this will be a 404 during development) -->
+	<script src="cordova.js"></script>
+
+	<!-- your app's js -->
+	<script src="js/app.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/services.js"></script>
+	<script src="js/controllers.js"></script>
+</head>
+
+<body ng-app="PushAppsSample">
+
+	<ion-pane ng-controller="HomeCtrl">
+		<ion-header-bar class="bar-positive">
+			<h1 class="title">Ionic PushApps sample</h1>
+		</ion-header-bar>
+		<ion-content class="has-header">
+			<div class="buttons">
+				<button ng-click="registerDevice()" class="button button-positive">
+					Register device
+				</button>
+				<button ng-click="unRegisterDevice()" class="button button-assertive">
+					Unregister device
+				</button>
+			</div>
+
+			<div ng-if="status" class="card">
+				<span ng-if="status.text">
+					<b>Status:</b> {{status.text}}
+				</span>
+				<br>
+				<span ng-if="status.pushToken">
+					<b>PushToken:</b> {{status.pushToken}}
+				</span>
+				<span ng-if="status.deviceId">
+					<b>DeviceId:</b> {{status.deviceId}}
+				</span>
+
+			</div>
+
+			<div ng-if="!status" class="card">
+				Click register device in order to receive push notifications.
+			</div>
+
+		</ion-content>
+	</ion-pane>
+</body>
+
+</html>
