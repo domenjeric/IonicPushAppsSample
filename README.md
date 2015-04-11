@@ -4,11 +4,11 @@ A sample mobile app build with [Ionic](http://ionicframework.com/) to demonstrat
 Screenshots
 -------
 
-<a href="url"><img src="https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot1.png" align="left"  width="260" ></a>
+<a href="url"><img src="https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot1.png"   width="260" ></a>
 
-<a href="url"><img src="https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot2.png" align="left"  width="260" ></a>
+<a href="url"><img src="https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot2.png"   width="260" ></a>
 
-<a href="url"><img src="https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot3.png" align="left"  width="260" ></a>
+<a href="url"><img src="https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot3.png"   width="260" ></a>
 
 Running sample project
 -------
