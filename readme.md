@@ -1,11 +1,6 @@
 ## Ionic PushApps push notifications Sample##
 A sample mobile app build with [Ionic](http://ionicframework.com/) to demonstrate how to register and receive push notifications with [PushApps](http://www.pushapps.mobi/) service on Android and iOS.
 
-Screenshots
--------
-
-![](screenshots/screenshot1.png) ![](screenshots/screenshot2.png) ![](screenshots/screenshot3.png) 
-
 Running sample project
 -------
 Download project and go to www/js/config.js . Insert in your google project id and PushApps id. 
