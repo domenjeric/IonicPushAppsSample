@@ -3,14 +3,9 @@ A sample mobile app build with [Ionic](http://ionicframework.com/) to demonstrat
 
 Screenshots
 -------
-<div>
-<a href="url"><img style="margin-right:10px;" src="https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot1.png" align="left"  width="260" ></a>
 
-<a href="url"><img style="margin-right:10px;" src="https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot2.png" align="left"   width="260" ></a>
+![](screenshots/screenshot1.png) ![](screenshots/screenshot2.png) ![](screenshots/screenshot3.png) 
 
-<a href="url"><img style="margin-right:10px;" src="https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot3.png"  align="left"  width="260" ></a>
-</div>
-<br>
 Running sample project
 -------
 Download project and go to www/js/config.js . Insert in your google project id and PushApps id. 
