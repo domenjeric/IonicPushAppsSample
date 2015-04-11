@@ -3,6 +3,9 @@ A sample mobile app build with [Ionic](http://ionicframework.com/) to demonstrat
 
 Screenshots
 -------
+
+![](screenshots/screenshot1.png) ![](screenshots/screenshot2.png) ![](screenshots/screenshot3.png) 
+
 Running sample project
 -------
 Download project and go to www/js/config.js . Insert in your google project id and PushApps id. 
@@ -83,7 +86,7 @@ This plugins must be installed for push notifications to work properly:
     cordova plugin add https://github.com/PushAppsService/PushAppsPhonegap.git
 
 I suggest you to add them as a cordova hooks. I've done this in sample project, you can find it here: 
-hooks/before_platform_add/010_install_plugins.js
+[hooks/before_platform_add/010_install_plugins.js](https://github.com/domenjeric/IonicPushAppsSample/blob/master/hooks/before_platform_add/010_install_plugins.js)
 
 API Usage
 -------
