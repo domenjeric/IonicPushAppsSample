@@ -73,7 +73,7 @@ Commands:
 Integrating into your project
 =============================
 
-Download  PushNotification.factory.js into your project and link it from your index.html. Now open it and insert your google project id and PushApps id.  
+Download  PushNotification.factory.js into your project and link it from your index.html. Open it and insert your google project id and PushApps id.  
 
 Pre-requisites
 -----
