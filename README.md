@@ -4,9 +4,9 @@ A sample mobile app build with [Ionic](http://ionicframework.com/) to demonstrat
 Screenshots
 -------
 
-![Screenshot 1](https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot1.png | width=300 "Screenshot 1")
-![Screenshot 2](https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot2.png | width=300 "Screenshot 2")
-![Screenshot 3](https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot3.png | width=300 "Screenshot 3")
+![Screenshot 1]([[https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot1.png | width=300]] "Screenshot 1")
+![Screenshot 2]([[https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot2.png | width=300]] "Screenshot 2")
+![Screenshot 3]([[https://raw.githubusercontent.com/domenjeric/IonicPushAppsSample/master/screenshots/screenshot3.png | width=300]] "Screenshot 3")
 
 Running sample project
 -------
