@@ -35,14 +35,15 @@ var app = angular.module('PushAppsSample', ['ionic'])
 			});
 
 		});
-
-		//listener for push notifications - show alert
-		document.addEventListener('pushapps.message-received', function(event) {
-			var notification = event.notification;
-			var alertPopup = $ionicPopup.alert({
-				title: "Message",
-				template: notification.Message
-			});
-		});
 	}
+	
+	//listener for push notifications - show alert
+	document.addEventListener('pushapps.message-received', function(event) {
+		var notification = event.notification;
+		var alertPopup = $ionicPopup.alert({
+			title: "Message",
+			template: notification.Message
+		});
+	});
+	
 });
