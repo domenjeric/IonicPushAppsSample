@@ -1,5 +1,5 @@
 {
-  "name": "pushappssample”,
+  "name": "pushappssample",
   "version": "1.0.0",
   "description": "PushAppsSample: An Ionic project",
   "dependencies": {
@@ -19,7 +19,5 @@
     "org.apache.cordova.console",
     "com.ionic.keyboard"
   ],
-  "cordovaPlatforms": [
-    "android"
-  ]
+  "cordovaPlatforms": []
 }
