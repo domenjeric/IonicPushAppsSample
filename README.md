@@ -5,19 +5,19 @@ Running sample project
 -------
 Download project and go to www/js/config.js . Insert in your google project id and PushApps id. 
 
-**Android**
+**Android** <br>
 A guide for obtaining Google Project id and PushApps can be found here: [Android getting started](https://wiki.pushapps.mobi/display/PUSHAPPS/Android+Getting+Started). 
 After you do that open command line and go to the root of the project. Then execute following command:
 
     ionic platform add android
 
-**iOS**
+**iOS** <br>
 A guide for iOS can be found here: [iOS getting started](https://wiki.pushapps.mobi/display/PUSHAPPS/iOS+Getting+Started). 
 After you do that open command line and go to the root of the project. Then execute following command:
 
     ionic platform add ios
 
-If you're on iOS, please open the Xcode project you've just created, and add the following code to your AppDelegate.m file:
+If you're supporting iOS, please open the Xcode project you've just created, and add the following code to your AppDelegate.m file:
 
 ```objective-c
 #import "PushApps.h"
