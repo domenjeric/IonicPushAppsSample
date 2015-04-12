@@ -56,7 +56,8 @@ If you're supporting iOS, please open the Xcode project you've just created, and
 ```
 
 
-After that  you can run it. **If you are testing on an emulator - set the target of the emulator to Google APIs. Push notifications will not work on an emulator, you must try them on a real device.**
+After that  you can run it. **If you are testing on android emulator - set the target of the emulator to Google APIs. 
+Push notifications will not work on iOS emulator, you must try them on a real device.**
 
 Commands:
 
