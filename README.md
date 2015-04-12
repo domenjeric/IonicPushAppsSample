@@ -67,8 +67,6 @@ Commands:
 Integrating into your project
 =============================
 
-Download  PushNotification.factory.js into your project and link it from your index.html. Open it and insert your google project id and PushApps id.  
-
 Pre-requisites
 -----
 This plugins must be installed for push notifications to work properly:
@@ -78,6 +76,10 @@ This plugins must be installed for push notifications to work properly:
 
 I suggest you to add them as a cordova hooks. I've done this in sample project, you can find it here: 
 [hooks/before_platform_add/010_install_plugins.js](https://github.com/domenjeric/IonicPushAppsSample/blob/master/hooks/before_platform_add/010_install_plugins.js)
+
+
+Download  PushNotification.factory.js into your project and link it from your index.html. Open it and insert your google project id and PushApps id. If you are supporting iOS, please take a look at steps mentioned under running sample project/iOS. 
+
 
 Handle incoming notifications
 -------
