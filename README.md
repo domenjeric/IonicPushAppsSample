@@ -69,7 +69,7 @@ Integrating into your project
 
 Pre-requisites
 -----
-This plugins must be installed for push notifications to work properly:
+These plugins must be installed for push notifications to work properly:
 
     cordova plugin add org.apache.cordova.device
     cordova plugin add https://github.com/PushAppsService/PushAppsPhonegap.git
