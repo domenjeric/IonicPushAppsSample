@@ -1,11 +1,6 @@
 ## Ionic PushApps push notifications Sample##
 A sample mobile app build with [Ionic](http://ionicframework.com/) to demonstrate how to register and receive push notifications with [PushApps](http://www.pushapps.mobi/) service on Android and iOS.
 
-Screenshots
--------
-
-![](screenshots/screenshot1.png) ![](screenshots/screenshot2.png) ![](screenshots/screenshot3.png) 
-
 Running sample project
 -------
 Download project and go to www/js/config.js . Insert in your google project id and PushApps id. 
@@ -87,6 +82,18 @@ This plugins must be installed for push notifications to work properly:
 
 I suggest you to add them as a cordova hooks. I've done this in sample project, you can find it here: 
 [hooks/before_platform_add/010_install_plugins.js](https://github.com/domenjeric/IonicPushAppsSample/blob/master/hooks/before_platform_add/010_install_plugins.js)
+
+Handle incoming notifications
+-------
+PushApps will raise an HTML event, every time an incoming notification is received. In order to bind a function to this event, all you need is:
+```javascript
+document.addEventListener('pushapps.message-received', function(event) {
+	var notification = event.notification;
+	// This is the entire object, just take the wanted property
+	console.log(notification);
+});
+```
+
 
 API Usage
 -------
